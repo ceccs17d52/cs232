@@ -1,0 +1,83 @@
+Script started on 2019-02-18 20:59:59+0530
+]0;thwalib@shabeerdas-VirtualBox: ~[01;32mthwalib@shabeerdas-VirtualBox[00m:[01;34m~[00m$ ls
+ceccs17d52.txt  [0m[01;34mDesktop[0m  [01;34mDocuments[0m  [01;34mDownloads[0m  examples.desktop  [01;34mMusic[0m  [01;34mPictures[0m  [01;34mPublic[0m  [01;34mTemplates[0m  [01;34mVideos[0m
+]0;thwalib@shabeerdas-VirtualBox: ~[01;32mthwalib@shabeerdas-VirtualBox[00m:[01;34m~[00m$ ls -1
+ceccs17d52.txt
+[0m[01;34mDesktop[0m
+[01;34mDocuments[0m
+[01;34mDownloads[0m
+examples.desktop
+[01;34mMusic[0m
+[01;34mPictures[0m
+[01;34mPublic[0m
+[01;34mTemplates[0m
+[01;34mVideos[0m
+]0;thwalib@shabeerdas-VirtualBox: ~[01;32mthwalib@shabeerdas-VirtualBox[00m:[01;34m~[00m$ pwd
+/home/thwalib
+]0;thwalib@shabeerdas-VirtualBox: ~[01;32mthwalib@shabeerdas-VirtualBox[00m:[01;34m~[00m$ cd Desktop/
+]0;thwalib@shabeerdas-VirtualBox: ~/Desktop[01;32mthwalib@shabeerdas-VirtualBox[00m:[01;34m~/Desktop[00m$ pwd
+/home/thwalib/Desktop
+]0;thwalib@shabeerdas-VirtualBox: ~/Desktop[01;32mthwalib@shabeerdas-VirtualBox[00m:[01;34m~/Desktop[00m$ cd ..
+]0;thwalib@shabeerdas-VirtualBox: ~[01;32mthwalib@shabeerdas-VirtualBox[00m:[01;34m~[00m$ pwd
+/home/thwalib
+]0;thwalib@shabeerdas-VirtualBox: ~[01;32mthwalib@shabeerdas-VirtualBox[00m:[01;34m~[00m$ ls -t
+ceccs17d52.txt  [0m[01;34mDesktop[0m  [01;34mDocuments[0m  [01;34mDownloads[0m  [01;34mMusic[0m  [01;34mPictures[0m  [01;34mPublic[0m  [01;34mTemplates[0m  [01;34mVideos[0m  examples.desktop
+]0;thwalib@shabeerdas-VirtualBox: ~[01;32mthwalib@shabeerdas-VirtualBox[00m:[01;34m~[00m$ ls -lt
+total 44
+-rw-r--r-- 1 thwalib thwalib    0 Feb 18 20:59 ceccs17d52.txt
+drwxr-xr-x 2 thwalib thwalib 4096 Feb 18 20:57 [0m[01;34mDesktop[0m
+drwxr-xr-x 2 thwalib thwalib 4096 Feb 18 20:57 [01;34mDocuments[0m
+drwxr-xr-x 2 thwalib thwalib 4096 Feb 18 20:57 [01;34mDownloads[0m
+drwxr-xr-x 2 thwalib thwalib 4096 Feb 18 20:57 [01;34mMusic[0m
+drwxr-xr-x 2 thwalib thwalib 4096 Feb 18 20:57 [01;34mPictures[0m
+drwxr-xr-x 2 thwalib thwalib 4096 Feb 18 20:57 [01;34mPublic[0m
+drwxr-xr-x 2 thwalib thwalib 4096 Feb 18 20:57 [01;34mTemplates[0m
+drwxr-xr-x 2 thwalib thwalib 4096 Feb 18 20:57 [01;34mVideos[0m
+-rw-r--r-- 1 thwalib thwalib 8980 Feb 18 20:55 examples.desktop
+]0;thwalib@shabeerdas-VirtualBox: ~[01;32mthwalib@shabeerdas-VirtualBox[00m:[01;34m~[00m$ ls -ltr
+total 44
+-rw-r--r-- 1 thwalib thwalib 8980 Feb 18 20:55 examples.desktop
+drwxr-xr-x 2 thwalib thwalib 4096 Feb 18 20:57 [0m[01;34mVideos[0m
+drwxr-xr-x 2 thwalib thwalib 4096 Feb 18 20:57 [01;34mTemplates[0m
+drwxr-xr-x 2 thwalib thwalib 4096 Feb 18 20:57 [01;34mPublic[0m
+drwxr-xr-x 2 thwalib thwalib 4096 Feb 18 20:57 [01;34mPictures[0m
+drwxr-xr-x 2 thwalib thwalib 4096 Feb 18 20:57 [01;34mMusic[0m
+drwxr-xr-x 2 thwalib thwalib 4096 Feb 18 20:57 [01;34mDownloads[0m
+drwxr-xr-x 2 thwalib thwalib 4096 Feb 18 20:57 [01;34mDocuments[0m
+drwxr-xr-x 2 thwalib thwalib 4096 Feb 18 20:57 [01;34mDesktop[0m
+-rw-r--r-- 1 thwalib thwalib    0 Feb 18 20:59 ceccs17d52.txt
+]0;thwalib@shabeerdas-VirtualBox: ~[01;32mthwalib@shabeerdas-VirtualBox[00m:[01;34m~[00m$ cat > a.txt
+thwalib
+college of engineering
+chengannur
+^C
+]0;thwalib@shabeerdas-VirtualBox: ~[01;32mthwalib@shabeerdas-VirtualBox[00m:[01;34m~[00m$ cat a.txt 
+thwalib
+college of engineering
+chengannur
+]0;thwalib@shabeerdas-VirtualBox: ~[01;32mthwalib@shabeerdas-VirtualBox[00m:[01;34m~[00m$ grep thwa a.txt
+[01;31m[Kthwa[m[Klib
+]0;thwalib@shabeerdas-VirtualBox: ~[01;32mthwalib@shabeerdas-VirtualBox[00m:[01;34m~[00m$ grep thwa a.txt[5Pcat a.txt > a.txt[4Pls -ltr[K[1Pt[2Ppwdcd ..[2Ppwdcd Desktop/pwd[Kls -1[K -1[2Ppwdcd Desktop/pwd[Kcd ..[2Ppwdls -tltrcat > a.txt[1Pa.txt grep thwa a.txt[Kla -a
+[0m[01;34m.[0m      .bash_history  [01;34m.cache[0m          [01;34mDesktop[0m    examples.desktop  [01;34m.local[0m    .profile   .vboxclient-clipboard.pid    .vboxclient-seamless.pid
+[01;34m..[0m     .bash_logout   ceccs17d52.txt  [01;34mDocuments[0m  [01;34m.gnupg[0m            [01;34mMusic[0m     [01;34mPublic[0m     .vboxclient-display.pid      [01;34mVideos[0m
+a.txt  .bashrc        [01;34m.config[0m         [01;34mDownloads[0m  .ICEauthority     [01;34mPictures[0m  [01;34mTemplates[0m  .vboxclient-draganddrop.pid
+]0;thwalib@shabeerdas-VirtualBox: ~[01;32mthwalib@shabeerdas-VirtualBox[00m:[01;34m~[00m$ la -A
+a.txt          .bashrc         [0m[01;34m.config[0m    [01;34mDownloads[0m         .ICEauthority  [01;34mPictures[0m  [01;34mTemplates[0m                  .vboxclient-draganddrop.pid
+.bash_history  [01;34m.cache[0m          [01;34mDesktop[0m    examples.desktop  [01;34m.local[0m         .profile  .vboxclient-clipboard.pid  .vboxclient-seamless.pid
+.bash_logout   ceccs17d52.txt  [01;34mDocuments[0m  [01;34m.gnupg[0m            [01;34mMusic[0m          [01;34mPublic[0m    .vboxclient-display.pid    [01;34mVideos[0m
+]0;thwalib@shabeerdas-VirtualBox: ~[01;32mthwalib@shabeerdas-VirtualBox[00m:[01;34m~[00m$ touch s[Ks.txt
+]0;thwalib@shabeerdas-VirtualBox: ~[01;32mthwalib@shabeerdas-VirtualBox[00m:[01;34m~[00m$ ls'[K
+a.txt  ceccs17d52.txt  [0m[01;34mDesktop[0m  [01;34mDocuments[0m  [01;34mDownloads[0m  examples.desktop  [01;34mMusic[0m  [01;34mPictures[0m  [01;34mPublic[0m  s.txt  [01;34mTemplates[0m  [01;34mVideos[0m
+]0;thwalib@shabeerdas-VirtualBox: ~[01;32mthwalib@shabeerdas-VirtualBox[00m:[01;34m~[00m$ cat > s.txt
+s4
+d
+52
+^C
+]0;thwalib@shabeerdas-VirtualBox: ~[01;32mthwalib@shabeerdas-VirtualBox[00m:[01;34m~[00m$ paste a.txt s.txt 
+thwalib	s4
+college of engineering	d
+chengannur	52
+]0;thwalib@shabeerdas-VirtualBox: ~[01;32mthwalib@shabeerdas-VirtualBox[00m:[01;34m~[00m$ exit
+exit
+
+Script done on 2019-02-18 21:09:31+0530
