@@ -1,0 +1,90 @@
+Script started on 2019-02-18 21:17:48+0530
+]0;thwalib@shabeerdas-VirtualBox: ~[01;32mthwalib@shabeerdas-VirtualBox[00m:[01;34m~[00m$ ls'[K
+a.txt  ceccs17d52.txt  [0m[01;34mDesktop[0m  [01;34mDocuments[0m  [01;34mDownloads[0m  examples.desktop  [01;34mMusic[0m  [01;34mPictures[0m  [01;34mPublic[0m  s.txt  [01;34mTemplates[0m  thwalib.txt  [01;34mVideos[0m
+]0;thwalib@shabeerdas-VirtualBox: ~[01;32mthwalib@shabeerdas-VirtualBox[00m:[01;34m~[00m$ ls -1
+a.txt
+ceccs17d52.txt
+[0m[01;34mDesktop[0m
+[01;34mDocuments[0m
+[01;34mDownloads[0m
+examples.desktop
+[01;34mMusic[0m
+[01;34mPictures[0m
+[01;34mPublic[0m
+s.txt
+[01;34mTemplates[0m
+thwalib.txt
+[01;34mVideos[0m
+]0;thwalib@shabeerdas-VirtualBox: ~[01;32mthwalib@shabeerdas-VirtualBox[00m:[01;34m~[00m$ cat a.txt s.txt 
+thwalib
+college of engineering
+chengannur
+s4
+d
+52
+]0;thwalib@shabeerdas-VirtualBox: ~[01;32mthwalib@shabeerdas-VirtualBox[00m:[01;34m~[00m$ paste a.txt s.txt 
+thwalib	s4
+college of engineering	d
+chengannur	52
+]0;thwalib@shabeerdas-VirtualBox: ~[01;32mthwalib@shabeerdas-VirtualBox[00m:[01;34m~[00m$ join a.txt s.txt 
+join: s.txt:3: is not sorted: 52
+join: a.txt:2: is not sorted: college of engineering
+]0;thwalib@shabeerdas-VirtualBox: ~[01;32mthwalib@shabeerdas-VirtualBox[00m:[01;34m~[00m$ sort man
+sort: cannot read: man: No such file or directory
+]0;thwalib@shabeerdas-VirtualBox: ~[01;32mthwalib@shabeerdas-VirtualBox[00m:[01;34m~[00m$ man sort
+[?1049h[22;0;0t[?1h=SORT(1)                                                        User Commands                                                       SORT(1)[m
+[m
+[1mNAME[0m[m
+       sort - sort lines of text files[m
+[m
+[1mSYNOPSIS[0m[m
+       [1msort[0m [[4mOPTION[24m]... [[4mFILE[24m]...[m
+       [1msort[0m [[4mOPTION[24m]... [4m--files0-from=F[24m[m
+[m
+[1mDESCRIPTION[0m[m
+       Write sorted concatenation of all FILE(s) to standard output.[m
+[m
+       With no FILE, or when FILE is -, read standard input.[m
+[m
+       Mandatory arguments to long options are mandatory for short options too.  Ordering options:[m
+[m
+       [1m-b[0m, [1m--ignore-leading-blanks[0m[m
+              ignore leading blanks[m
+[m
+       [1m-d[0m, [1m--dictionary-order[0m[m
+              consider only blanks and alphanumeric characters[m
+[m
+       [1m-f[0m, [1m--ignore-case[0m[m
+              fold lower case to upper case characters[m
+[m
+       [1m-g[0m, [1m--general-numeric-sort[0m[m
+              compare according to general numerical value[m
+[m
+       [1m-i[0m, [1m--ignore-nonprinting[0m[m
+              consider only printable characters[m
+[m
+       [1m-M[0m, [1m--month-sort[0m[m
+              compare (unknown) < 'JAN' < ... < 'DEC'[m
+[m
+       [1m-h[0m, [1m--human-numeric-sort[0m[m
+              compare human readable numbers (e.g., 2K 1G)[m
+[m
+[7m Manual page sort(1) line 1 (press h for help or q to quit)[27m[K[K[?1l>[?1049l[23;0;0t]0;thwalib@shabeerdas-VirtualBox: ~[01;32mthwalib@shabeerdas-VirtualBox[00m:[01;34m~[00m$ sort -f
+thaafug
+c ^C
+]0;thwalib@shabeerdas-VirtualBox: ~[01;32mthwalib@shabeerdas-VirtualBox[00m:[01;34m~[00m$ ls
+a.txt  ceccs17d52.txt  [0m[01;34mDesktop[0m  [01;34mDocuments[0m  [01;34mDownloads[0m  examples.desktop  [01;34mMusic[0m  [01;34mPictures[0m  [01;34mPublic[0m  s.txt  [01;34mTemplates[0m  thwalib.txt  [01;34mVideos[0m
+]0;thwalib@shabeerdas-VirtualBox: ~[01;32mthwalib@shabeerdas-VirtualBox[00m:[01;34m~[00m$ sort -f a.txt 
+chengannur
+college of engineering
+thwalib
+]0;thwalib@shabeerdas-VirtualBox: ~[01;32mthwalib@shabeerdas-VirtualBox[00m:[01;34m~[00m$ una,[Kme
+Linux
+]0;thwalib@shabeerdas-VirtualBox: ~[01;32mthwalib@shabeerdas-VirtualBox[00m:[01;34m~[00m$ whoami
+thwalib
+]0;thwalib@shabeerdas-VirtualBox: ~[01;32mthwalib@shabeerdas-VirtualBox[00m:[01;34m~[00m$ sortv[K -c a.txt 
+sort: a.txt:2: disorder: college of engineering
+]0;thwalib@shabeerdas-VirtualBox: ~[01;32mthwalib@shabeerdas-VirtualBox[00m:[01;34m~[00m$ exit
+exit
+
+Script done on 2019-02-18 21:25:08+0530
