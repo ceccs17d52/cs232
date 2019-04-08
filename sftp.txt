@@ -1,0 +1,74 @@
+Script started on Monday 08 April 2019 11:14:02 AM IST
+]0;clab1@clab1-HP-Compaq-dc7900-Convertible-Minitower: ~[01;32mclab1@clab1-HP-Compaq-dc7900-Convertible-Minitower[00m:[01;34m~[00m$ sftp cs17d522192[K[K[K[K@192.168.0.30
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs17d52@192.168.0.30's password: 
+Connected to 192.168.0.30.
+sftp> ls
+examples.desktop   
+sftp> lls
+abhi,aju 		 client.c      emp.txt		      ifconfig.sh  prgm2.c  Server.c	      task4(scp).txt  tcp2.c
+a.out			 client.java   ex		      lex.yy.c	   prgm.c   server.java       task4(ssh).txt  tcp.c
+bubblesort.c		 cs17d04       examples.desktop       me.txt	   Public   sftp.txt	      task5.txt       Templates
+cal.sh			 cs232-master  ex.c		      Music	   q	    singlell.c	      task6(1).jpg    testenv
+cec			 dequell.c     fifo.c		      name.txt	   q1	    task1.txt	      task6(2).jpg    Videos
+ceccs17d04.11.02.19.txt  Desktop       Firefox_wallpaper.png  new	   q1.c     task2.sh	      task6(3).jpg
+ceccs17d04.11.03.19.txt  Documents     hari		      Pictures	   q.c	    task3.txt	      task6(4).jpg
+ceccs17d04.25.02.19.txt  Downloads     hello.c		      prgm	   s4d.txt  task4(rsync).txt  tcp1.c
+sftp> mkdir first
+sftp> ls
+examples.desktop   first              
+sftp> get fir[Ksftp> get first/
+Fetching /home/cs17d52/first/ to first
+Cannot download non-regular file: /home/cs17d52/first/
+sftp> ls
+examples.desktop   first              
+sftp> lls
+abhi,aju 		 client.c      emp.txt		      ifconfig.sh  prgm2.c  Server.c	      task4(scp).txt  tcp2.c
+a.out			 client.java   ex		      lex.yy.c	   prgm.c   server.java       task4(ssh).txt  tcp.c
+bubblesort.c		 cs17d04       examples.desktop       me.txt	   Public   sftp.txt	      task5.txt       Templates
+cal.sh			 cs232-master  ex.c		      Music	   q	    singlell.c	      task6(1).jpg    testenv
+cec			 dequell.c     fifo.c		      name.txt	   q1	    task1.txt	      task6(2).jpg    Videos
+ceccs17d04.11.02.19.txt  Desktop       Firefox_wallpaper.png  new	   q1.c     task2.sh	      task6(3).jpg
+ceccs17d04.11.03.19.txt  Documents     hari		      Pictures	   q.c	    task3.txt	      task6(4).jpg
+ceccs17d04.25.02.19.txt  Downloads     hello.c		      prgm	   s4d.txt  task4(rsync).txt  tcp1.c
+sftp> mkdir fi[K[K[K[K[K[K[Kput me.txt
+Uploading me.txt to /home/cs17d52/me.txt
+me.txt                                                                                             100%    0     0.0KB/s   00:00    
+sftp> ls
+examples.desktop   first              me.txt             
+sftp> get fir[Ksftp> get first/[K
+Fetching /home/cs17d52/first/ to first
+Cannot download non-regular file: /home/cs17d52/first/
+sftp> cd fi[Ksftp> cd first/
+sftp> pwd
+Remote working directory: /home/cs17d52/first
+sftp> cd ..
+sftp> pwd
+Remote working directory: /home/cs17d52
+sftp> lcd 
+You must specify a path after a lcd command.
+sftp> ld [K[Klcd cec
+cec/                      ceccs17d04.11.02.19.txt   ceccs17d04.11.03.19.txt   ceccs17d04.25.02.19.txt   
+[Ksftp> lcd cec
+sftp> lls
+S3D05  S3D07
+sftp> lcd ..
+sftp> lls
+abhi,aju 		 client.c      emp.txt		      ifconfig.sh  prgm2.c  Server.c	      task4(scp).txt  tcp2.c
+a.out			 client.java   ex		      lex.yy.c	   prgm.c   server.java       task4(ssh).txt  tcp.c
+bubblesort.c		 cs17d04       examples.desktop       me.txt	   Public   sftp.txt	      task5.txt       Templates
+cal.sh			 cs232-master  ex.c		      Music	   q	    singlell.c	      task6(1).jpg    testenv
+cec			 dequell.c     fifo.c		      name.txt	   q1	    task1.txt	      task6(2).jpg    Videos
+ceccs17d04.11.02.19.txt  Desktop       Firefox_wallpaper.png  new	   q1.c     task2.sh	      task6(3).jpg
+ceccs17d04.11.03.19.txt  Documents     hari		      Pictures	   q.c	    task3.txt	      task6(4).jpg
+ceccs17d04.25.02.19.txt  Downloads     hello.c		      prgm	   s4d.txt  task4(rsync).txt  tcp1.c
+sftp> exit
+]0;clab1@clab1-HP-Compaq-dc7900-Convertible-Minitower: ~[01;32mclab1@clab1-HP-Compaq-dc7900-Convertible-Minitower[00m:[01;34m~[00m$ ^C
+]0;clab1@clab1-HP-Compaq-dc7900-Convertible-Minitower: ~[01;32mclab1@clab1-HP-Compaq-dc7900-Convertible-Minitower[00m:[01;34m~[00m$ exir[Kt
+exit
+
+Script done on Monday 08 April 2019 11:23:08 AM IST
