@@ -1,0 +1,63 @@
+Script started on Monday 08 April 2019 01:10:52 PM IST
+]0;s4-d2@clab1-HP-Compaq-dc7900-Convertible-Minitower: ~[01;32ms4-d2@clab1-HP-Compaq-dc7900-Convertible-Minitower[00m:[01;34m~[00m$ ifconfig
+enp0s25   Link encap:Ethernet  HWaddr 00:24:81:18:9d:50  
+          inet addr:192.168.0.243  Bcast:192.168.0.255  Mask:255.255.255.0
+          inet6 addr: fe80::ea1a:c403:5dbc:e8b/64 Scope:Link
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:220426 errors:0 dropped:33 overruns:0 frame:0
+          TX packets:71202 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:177263111 (177.2 MB)  TX bytes:7182292 (7.1 MB)
+          Interrupt:19 Memory:f0500000-f0520000 
+
+lo        Link encap:Local Loopback  
+          inet addr:127.0.0.1  Mask:255.0.0.0
+          inet6 addr: ::1/128 Scope:Host
+          UP LOOPBACK RUNNING  MTU:65536  Metric:1
+          RX packets:1574 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:1574 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:111258 (111.2 KB)  TX bytes:111258 (111.2 KB)
+
+]0;s4-d2@clab1-HP-Compaq-dc7900-Convertible-Minitower: ~[01;32ms4-d2@clab1-HP-Compaq-dc7900-Convertible-Minitower[00m:[01;34m~[00m$ ifconfig enp0s25
+enp0s25   Link encap:Ethernet  HWaddr 00:24:81:18:9d:50  
+          inet addr:192.168.0.243  Bcast:192.168.0.255  Mask:255.255.255.0
+          inet6 addr: fe80::ea1a:c403:5dbc:e8b/64 Scope:Link
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:221401 errors:0 dropped:33 overruns:0 frame:0
+          TX packets:71230 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:177361012 (177.3 MB)  TX bytes:7186742 (7.1 MB)
+          Interrupt:19 Memory:f0500000-f0520000 
+
+]0;s4-d2@clab1-HP-Compaq-dc7900-Convertible-Minitower: ~[01;32ms4-d2@clab1-HP-Compaq-dc7900-Convertible-Minitower[00m:[01;34m~[00m$ ifconfig enp0s25 up
+SIOCSIFFLAGS: Operation not permitted
+]0;s4-d2@clab1-HP-Compaq-dc7900-Convertible-Minitower: ~[01;32ms4-d2@clab1-HP-Compaq-dc7900-Convertible-Minitower[00m:[01;34m~[00m$ sudo ifconfig enp0s25 up[1@s[1@u[1@d[1@o[1@ 
+[sudo] password for s4-d2: 
+]0;s4-d2@clab1-HP-Compaq-dc7900-Convertible-Minitower: ~[01;32ms4-d2@clab1-HP-Compaq-dc7900-Convertible-Minitower[00m:[01;34m~[00m$ ifconfig -a
+enp0s25   Link encap:Ethernet  HWaddr 00:24:81:18:9d:50  
+          inet addr:192.168.0.243  Bcast:192.168.0.255  Mask:255.255.255.0
+          inet6 addr: fe80::ea1a:c403:5dbc:e8b/64 Scope:Link
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:222502 errors:0 dropped:33 overruns:0 frame:0
+          TX packets:71234 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:177450097 (177.4 MB)  TX bytes:7187032 (7.1 MB)
+          Interrupt:19 Memory:f0500000-f0520000 
+
+lo        Link encap:Local Loopback  
+          inet addr:127.0.0.1  Mask:255.0.0.0
+          inet6 addr: ::1/128 Scope:Host
+          UP LOOPBACK RUNNING  MTU:65536  Metric:1
+          RX packets:1574 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:1574 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:111258 (111.2 KB)  TX bytes:111258 (111.2 KB)
+
+]0;s4-d2@clab1-HP-Compaq-dc7900-Convertible-Minitower: ~[01;32ms4-d2@clab1-HP-Compaq-dc7900-Convertible-Minitower[00m:[01;34m~[00m$ ifconfig enp0s25 down
+SIOCSIFFLAGS: Operation not permitted
+]0;s4-d2@clab1-HP-Compaq-dc7900-Convertible-Minitower: ~[01;32ms4-d2@clab1-HP-Compaq-dc7900-Convertible-Minitower[00m:[01;34m~[00m$ ifconfig enp0s25 down[1@s[1@u[1@d[1@o[1@ 
+]0;s4-d2@clab1-HP-Compaq-dc7900-Convertible-Minitower: ~[01;32ms4-d2@clab1-HP-Compaq-dc7900-Convertible-Minitower[00m:[01;34m~[00m$ exit
+exit
+
+Script done on Monday 08 April 2019 01:14:45 PM IST
