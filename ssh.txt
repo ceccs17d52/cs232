@@ -1,0 +1,41 @@
+Script started on Monday 08 April 2019 11:25:36 AM IST
+]0;clab1@clab1-HP-Compaq-dc7900-Convertible-Minitower: ~[01;32mclab1@clab1-HP-Compaq-dc7900-Convertible-Minitower[00m:[01;34m~[00m$ ssh cs17d52@192.168.0.30
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs17d52@192.168.0.30's password: 
+Welcome to elementary OS 0.4.1 Loki (GNU/Linux 4.13.0-32-generic x86_64)
+
+ * Website:  http://elementary.io/
+
+23 packages can be updated.
+0 updates are security updates.
+
+*** System restart required ***
+Last login: Mon Apr  8 09:31:03 2019 from 192.168.0.243
+$ ls
+examples.desktop  first  me.txt
+$ cat     touch me.txt
+$ 
+$ ls
+examples.desktop  first  me.txt
+$ rm me	, .	t t	xt
+$ ls
+examples.desktop  first
+$ rmdir f	irst
+$ ls
+examples.desktop
+$ ls -lt
+total 12
+-rw-r--r-- 1 cs17d52 cs17d 8980 Apr 20  2016 examples.desktop
+$ s ls -ltr
+total 12
+-rw-r--r-- 1 cs17d52 cs17d 8980 Apr 20  2016 examples.desktop
+$ exit
+Connection to 192.168.0.30 closed.
+]0;clab1@clab1-HP-Compaq-dc7900-Convertible-Minitower: ~[01;32mclab1@clab1-HP-Compaq-dc7900-Convertible-Minitower[00m:[01;34m~[00m$ exit
+exit
+
+Script done on Monday 08 April 2019 11:49:21 AM IST
