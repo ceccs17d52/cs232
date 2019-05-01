@@ -1,0 +1,631 @@
+Script started on Thursday 25 April 2019 11:06:15 AM IST
+]0;s4d2@cec-HCL-Desktop: ~[01;32ms4d2@cec-HCL-Desktop[00m:[01;34m~[00m$ sudo install apache2
+[sudo] password for s4d2: 
+install: missing destination file operand after 'apache2'
+Try 'install --help' for more information.
+]0;s4d2@cec-HCL-Desktop: ~[01;32ms4d2@cec-HCL-Desktop[00m:[01;34m~[00m$ ap[K[Ksudo apt-get install apachec[K2
+Reading package lists... 0%Reading package lists... 100%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree       
+Reading state information... 0%Reading state information... 0%Reading state information... Done
+The following additional packages will be installed:
+  apache2-bin apache2-data apache2-utils libapr1 libaprutil1 libaprutil1-dbd-sqlite3 libaprutil1-ldap liblua5.1-0
+Suggested packages:
+  apache2-doc apache2-suexec-pristine | apache2-suexec-custom
+The following NEW packages will be installed:
+  apache2 apache2-bin apache2-data apache2-utils libapr1 libaprutil1 libaprutil1-dbd-sqlite3 libaprutil1-ldap liblua5.1-0
+0 upgraded, 9 newly installed, 0 to remove and 41 not upgraded.
+Need to get 1,541 kB of archives.
+After this operation, 6,373 kB of additional disk space will be used.
+Do you want to continue? [Y/n] y
+0% [Working]            Get:1 http://in.archive.ubuntu.com/ubuntu xenial/main amd64 libapr1 amd64 1.5.2-3 [86.0 kB]
+2% [1 libapr1 36.9 kB/86.0 kB 43%]                                  7% [Working]            Get:2 http://in.archive.ubuntu.com/ubuntu xenial/main amd64 libaprutil1 amd64 1.5.4-1build1 [77.1 kB]
+7% [2 libaprutil1 4,096 B/77.1 kB 5%]                                     13% [Working]             Get:3 http://in.archive.ubuntu.com/ubuntu xenial/main amd64 libaprutil1-dbd-sqlite3 amd64 1.5.4-1build1 [10.6 kB]
+13% [3 libaprutil1-dbd-sqlite3 4,449 B/10.6 kB 42%]                                                   16% [Working]             Get:4 http://in.archive.ubuntu.com/ubuntu xenial/main amd64 libaprutil1-ldap amd64 1.5.4-1build1 [8,720 B]
+16% [4 libaprutil1-ldap 8,720 B/8,720 B 100%]                                             18% [Working]             Get:5 http://in.archive.ubuntu.com/ubuntu xenial/main amd64 liblua5.1-0 amd64 5.1.5-8ubuntu1 [102 kB]
+19% [5 liblua5.1-0 12.2 kB/102 kB 12%]                                      26% [Working]26% [Waiting for headers]                         Get:6 http://in.archive.ubuntu.com/ubuntu xenial-updates/main amd64 apache2-bin amd64 2.4.18-2ubuntu3.10 [926 kB]
+26% [6 apache2-bin 1,109 B/926 kB 0%]31% [6 apache2-bin 98.1 kB/926 kB 11%]                                      72% [6 apache2-bin 880 kB/926 kB 95%]                                     76% [Waiting for headers]                         Get:7 http://in.archive.ubuntu.com/ubuntu xenial-updates/main amd64 apache2-utils amd64 2.4.18-2ubuntu3.10 [81.7 kB]
+77% [7 apache2-utils 13.9 kB/81.7 kB 17%]                                         83% [Waiting for headers]                         Get:8 http://in.archive.ubuntu.com/ubuntu xenial-updates/main amd64 apache2-data all 2.4.18-2ubuntu3.10 [162 kB]
+83% [8 apache2-data 5,651 B/162 kB 3%]                                      93% [Waiting for headers]                         Get:9 http://in.archive.ubuntu.com/ubuntu xenial-updates/main amd64 apache2 amd64 2.4.18-2ubuntu3.10 [86.6 kB]
+94% [9 apache2 7,246 B/86.6 kB 8%]                                  100% [Working]              Fetched 1,541 kB in 1s (845 kB/s)
+Selecting previously unselected package libapr1:amd64.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%
+(Reading database ... 90%(Reading database ... 95%
+(Reading database ... 100%(Reading database ... 192703 files and directories currently installed.)
+Preparing to unpack .../libapr1_1.5.2-3_amd64.deb ...
+Unpacking libapr1:amd64 (1.5.2-3) ...
+Selecting previously unselected package libaprutil1:amd64.
+Preparing to unpack .../libaprutil1_1.5.4-1build1_amd64.deb ...
+Unpacking libaprutil1:amd64 (1.5.4-1build1) ...
+Selecting previously unselected package libaprutil1-dbd-sqlite3:amd64.
+Preparing to unpack .../libaprutil1-dbd-sqlite3_1.5.4-1build1_amd64.deb ...
+Unpacking libaprutil1-dbd-sqlite3:amd64 (1.5.4-1build1) ...
+Selecting previously unselected package libaprutil1-ldap:amd64.
+Preparing to unpack .../libaprutil1-ldap_1.5.4-1build1_amd64.deb ...
+Unpacking libaprutil1-ldap:amd64 (1.5.4-1build1) ...
+Selecting previously unselected package liblua5.1-0:amd64.
+Preparing to unpack .../liblua5.1-0_5.1.5-8ubuntu1_amd64.deb ...
+Unpacking liblua5.1-0:amd64 (5.1.5-8ubuntu1) ...
+Selecting previously unselected package apache2-bin.
+Preparing to unpack .../apache2-bin_2.4.18-2ubuntu3.10_amd64.deb ...
+Unpacking apache2-bin (2.4.18-2ubuntu3.10) ...
+Selecting previously unselected package apache2-utils.
+Preparing to unpack .../apache2-utils_2.4.18-2ubuntu3.10_amd64.deb ...
+Unpacking apache2-utils (2.4.18-2ubuntu3.10) ...
+Selecting previously unselected package apache2-data.
+Preparing to unpack .../apache2-data_2.4.18-2ubuntu3.10_all.deb ...
+Unpacking apache2-data (2.4.18-2ubuntu3.10) ...
+Selecting previously unselected package apache2.
+Preparing to unpack .../apache2_2.4.18-2ubuntu3.10_amd64.deb ...
+Unpacking apache2 (2.4.18-2ubuntu3.10) ...
+Processing triggers for libc-bin (2.23-0ubuntu11) ...
+Processing triggers for man-db (2.7.5-1) ...
+Processing triggers for ufw (0.35-0ubuntu2) ...
+Processing triggers for systemd (229-4ubuntu21.21) ...
+Processing triggers for ureadahead (0.100.0-19) ...
+ureadahead will be reprofiled on next reboot
+Setting up libapr1:amd64 (1.5.2-3) ...
+Setting up libaprutil1:amd64 (1.5.4-1build1) ...
+Setting up libaprutil1-dbd-sqlite3:amd64 (1.5.4-1build1) ...
+Setting up libaprutil1-ldap:amd64 (1.5.4-1build1) ...
+Setting up liblua5.1-0:amd64 (5.1.5-8ubuntu1) ...
+Setting up apache2-bin (2.4.18-2ubuntu3.10) ...
+Setting up apache2-utils (2.4.18-2ubuntu3.10) ...
+Setting up apache2-data (2.4.18-2ubuntu3.10) ...
+Setting up apache2 (2.4.18-2ubuntu3.10) ...
+Enabling module mpm_event.
+Enabling module authz_core.
+Enabling module authz_host.
+Enabling module authn_core.
+Enabling module auth_basic.
+Enabling module access_compat.
+Enabling module authn_file.
+Enabling module authz_user.
+Enabling module alias.
+Enabling module dir.
+Enabling module autoindex.
+Enabling module env.
+Enabling module mime.
+Enabling module negotiation.
+Enabling module setenvif.
+Enabling module filter.
+Enabling module deflate.
+Enabling module status.
+Enabling conf charset.
+Enabling conf localized-error-pages.
+Enabling conf other-vhosts-access-log.
+Enabling conf security.
+Enabling conf serve-cgi-bin.
+Enabling site 000-default.
+Processing triggers for libc-bin (2.23-0ubuntu11) ...
+Processing triggers for systemd (229-4ubuntu21.21) ...
+Processing triggers for ureadahead (0.100.0-19) ...
+Processing triggers for ufw (0.35-0ubuntu2) ...
+]0;s4d2@cec-HCL-Desktop: ~[01;32ms4d2@cec-HCL-Desktop[00m:[01;34m~[00m$ sudo ufw app list
+Available applications:
+  Apache
+  Apache Full
+  Apache Secure
+  CUPS
+  Nginx Full
+  Nginx HTTP
+  Nginx HTTPS
+]0;s4d2@cec-HCL-Desktop: ~[01;32ms4d2@cec-HCL-Desktop[00m:[01;34m~[00m$ sudo apt-in[K[K[K[Kt install mysql-server
+Reading package lists... 0%Reading package lists... 100%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree       
+Reading state information... 0%Reading state information... 0%Reading state information... Done
+The following additional packages will be installed:
+  libaio1 libevent-core-2.0-5 libhtml-template-perl mysql-client-5.7 mysql-client-core-5.7 mysql-common mysql-server-5.7
+  mysql-server-core-5.7
+Suggested packages:
+  libipc-sharedcache-perl mailx tinyca
+The following NEW packages will be installed:
+  libaio1 libevent-core-2.0-5 libhtml-template-perl mysql-client-5.7 mysql-client-core-5.7 mysql-common mysql-server mysql-server-5.7
+  mysql-server-core-5.7
+0 upgraded, 9 newly installed, 0 to remove and 41 not upgraded.
+Need to get 18.5 MB of archives.
+After this operation, 161 MB of additional disk space will be used.
+Do you want to continue? [Y/n] y
+[33m0% [Working][0m            Get:1 http://in.archive.ubuntu.com/ubuntu xenial-updates/main amd64 mysql-common all 5.7.25-0ubuntu0.16.04.2 [15.5 kB]
+[33m0% [1 mysql-common 3,759 B/15.5 kB 24%][0m[33m                                       2% [Working][0m            Get:2 http://in.archive.ubuntu.com/ubuntu xenial/main amd64 libaio1 amd64 0.3.110-2 [6,356 B]
+[33m2% [2 libaio1 2,479 B/6,356 B 39%][0m[33m                                  5% [Working][0m            Get:3 http://in.archive.ubuntu.com/ubuntu xenial-updates/main amd64 mysql-client-core-5.7 amd64 5.7.25-0ubuntu0.16.04.2 [6,673 kB]
+[33m5% [3 mysql-client-core-5.7 0 B/6,673 kB 0%][0m[33m5% [3 mysql-client-core-5.7 31.5 kB/6,673 kB 0%][0m[33m                                                6% [3 mysql-client-core-5.7 246 kB/6,673 kB 4%][0m
+[33m8% [3 mysql-client-core-5.7 818 kB/6,673 kB 12%][0m
+[33m12% [3 mysql-client-core-5.7 1,813 kB/6,673 kB 27%][0m[33m19% [3 mysql-client-core-5.7 3,332 kB/6,673 kB 50%][0m[33m24% [3 mysql-client-core-5.7 4,562 kB/6,673 kB 68%][0m[33m29% [3 mysql-client-core-5.7 5,758 kB/6,673 kB 86%][0m[33m                                                   36% [Working][0m             Get:4 http://in.archive.ubuntu.com/ubuntu xenial-updates/main amd64 mysql-client-5.7 amd64 5.7.25-0ubuntu0.16.04.2 [1,726 kB]
+[33m36% [4 mysql-client-5.7 4,004 B/1,726 kB 0%][0m[33m43% [4 mysql-client-5.7 1,671 kB/1,726 kB 97%][0m[33m                                              45% [Waiting for headers][0m                         Get:5 http://in.archive.ubuntu.com/ubuntu xenial-updates/main amd64 mysql-server-core-5.7 amd64 5.7.25-0ubuntu0.16.04.2 [7,272 kB]
+[33m45% [5 mysql-server-core-5.7 4,004 B/7,272 kB 0%][0m[33m49% [5 mysql-server-core-5.7 921 kB/7,272 kB 13%][0m[33m61% [5 mysql-server-core-5.7 3,614 kB/7,272 kB 50%][0m[33m68% [5 mysql-server-core-5.7 5,262 kB/7,272 kB 72%]                                                                              2,187 kB/s 2s[0m[33m77% [5 mysql-server-core-5.7 7,240 kB/7,272 kB 100%]                                                                             2,187 kB/s 1s[0m[33m79% [Waiting for headers]                                                                                                        2,187 kB/s 1s[0m                                                                                                                                              Get:6 http://in.archive.ubuntu.com/ubuntu xenial-updates/main amd64 libevent-core-2.0-5 amd64 2.0.21-stable-2ubuntu0.16.04.1 [70.6 kB]
+[33m79% [6 libevent-core-2.0-5 1,031 B/70.6 kB 1%]                                                                                   2,187 kB/s 1s[0m[33m82% [Waiting for headers]                                                                                                        2,187 kB/s 1s[0m                                                                                                                                              Get:7 http://in.archive.ubuntu.com/ubuntu xenial-updates/main amd64 mysql-server-5.7 amd64 5.7.25-0ubuntu0.16.04.2 [2,623 kB]
+[33m82% [7 mysql-server-5.7 2,556 B/2,623 kB 0%]                                                                                     2,187 kB/s 1s[0m
+[33m83% [7 mysql-server-5.7 425 kB/2,623 kB 16%]                                                                                     2,187 kB/s 1s[0m[33m93% [7 mysql-server-5.7 2,546 kB/2,623 kB 97%]                                                                                   2,187 kB/s 0s[0m[33m95% [Working]                                                                                                                    2,187 kB/s 0s[0m                                                                                                                                              Get:8 http://in.archive.ubuntu.com/ubuntu xenial/main amd64 libhtml-template-perl all 2.95-2 [60.4 kB]
+[33m95% [8 libhtml-template-perl 6,688 B/60.4 kB 11%]                                                                                2,187 kB/s 0s[0m[33m98% [Working]                                                                                                                    2,187 kB/s 0s[0m                                                                                                                                              Get:9 http://in.archive.ubuntu.com/ubuntu xenial-updates/main amd64 mysql-server all 5.7.25-0ubuntu0.16.04.2 [10.8 kB]
+[33m98% [9 mysql-server 5,210 B/10.8 kB 48%]                                                                                         2,187 kB/s 0s[0m[33m100% [Working]                                                                                                                   2,187 kB/s 0s[0m                                                                                                                                              Fetched 18.5 MB in 7s (2,339 kB/s)
+
+Preconfiguring packages ...
+[?1049h[1;43r[4l[?25l(B[m[37m[40m[1;43r[H[2J[1;1H[97m[45m[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K[1;1H[?25l[?12l[?25h[37mPackage configuration[16;14H[30m[47m┌─────────────────────────────────────────┤ [31mConfiguring mysql-server-5.7[30m ├─────────────────────────────────────────┐[17;14H│ While not mandatory, it is highly recommended that you set a password for the MySQL administrative "root" user.  │[97m[40m [18;14H[30m[47m│                                                                                                                  │[97m[40m [19;14H[30m[47m│ If this field is left blank, the password will not be changed.                                                   │[97m[40m [20;14H[30m[47m│                                                                                                                  │[97m[40m [21;14H[30m[47m│ New password for the MySQL "root" user:                                                                          │[97m[40m [22;14H[30m[47m│                                                                                                                  │[97m[40m [23;14H[30m[47m│ [37m[45m________________________________________________________________________________________________________________[30m[47m │[97m[40m [24;14H[30m[47m│                                                                                                                  │[97m[40m [25;14H[30m[47m│                                                      <Ok>                                                        │[97m[40m [26;14H[30m[47m│                                                                                                                  │[97m[40m [27;14H[30m[47m└──────────────────────────────────────────────────────────────────────────────────────────────────────────────────┘[97m[40m [28;15H                                                                                                                    [23;16H[37m[45m********________***********___________***********[?25l[?12l[?25h[43;1H[40m(B[m[39;49m[K[?1049l[?1049h[1;43r[4l[?25l(B[m[37m[40m[1;43r[H[2J[1;1H[97m[45m[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K[1;1H[?25l[?12l[?25h[37mPackage configuration[17;49H[30m[47m┌──────┤ [31mConfiguring mysql-server-5.7[30m ├───────┐[18;49H│                                             │[97m[40m [19;49H[30m[47m│                                             │[97m[40m [20;49H[30m[47m│ Repeat password for the MySQL "root" user:  │[97m[40m [21;49H[30m[47m│                                             │[97m[40m [22;49H[30m[47m│ [37m[45m___________________________________________[30m[47m │[97m[40m [23;49H[30m[47m│                                             │[97m[40m [24;49H[30m[47m│                   <Ok>                      │[97m[40m [25;49H[30m[47m│                                             │[97m[40m [26;49H[30m[47m└─────────────────────────────────────────────┘[97m[40m [27;50H                                               [22;51H[37m[45m***********[?25l[?12l[?25h[43;1H[40m(B[m[39;49m[K[?1049l
+7[0;42r8[1ASelecting previously unselected package mysql-common.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%
+(Reading database ... 95%
+(Reading database ... 100%(Reading database ... 193381 files and directories currently installed.)
+Preparing to unpack .../mysql-common_5.7.25-0ubuntu0.16.04.2_all.deb ...
+7[43;0f[42m[30mProgress: [  0%][49m[39m [.........................................................................................................................] 87[43;0f[42m[30mProgress: [  2%][49m[39m [###......................................................................................................................] 8Unpacking mysql-common (5.7.25-0ubuntu0.16.04.2) ...
+7[43;0f[42m[30mProgress: [  4%][49m[39m [######...................................................................................................................] 87[43;0f[42m[30mProgress: [  6%][49m[39m [########.................................................................................................................] 8Selecting previously unselected package libaio1:amd64.
+Preparing to unpack .../libaio1_0.3.110-2_amd64.deb ...
+7[43;0f[42m[30mProgress: [  8%][49m[39m [###########..............................................................................................................] 8Unpacking libaio1:amd64 (0.3.110-2) ...
+7[43;0f[42m[30mProgress: [ 10%][49m[39m [##############...........................................................................................................] 87[43;0f[42m[30mProgress: [ 13%][49m[39m [################.........................................................................................................] 8Selecting previously unselected package mysql-client-core-5.7.
+Preparing to unpack .../mysql-client-core-5.7_5.7.25-0ubuntu0.16.04.2_amd64.deb ...
+7[43;0f[42m[30mProgress: [ 15%][49m[39m [###################......................................................................................................] 8Unpacking mysql-client-core-5.7 (5.7.25-0ubuntu0.16.04.2) ...
+7[43;0f[42m[30mProgress: [ 17%][49m[39m [######################...................................................................................................] 87[43;0f[42m[30mProgress: [ 19%][49m[39m [########################.................................................................................................] 8Selecting previously unselected package mysql-client-5.7.
+Preparing to unpack .../mysql-client-5.7_5.7.25-0ubuntu0.16.04.2_amd64.deb ...
+7[43;0f[42m[30mProgress: [ 21%][49m[39m [###########################..............................................................................................] 8Unpacking mysql-client-5.7 (5.7.25-0ubuntu0.16.04.2) ...
+7[43;0f[42m[30mProgress: [ 23%][49m[39m [#############################............................................................................................] 87[43;0f[42m[30mProgress: [ 26%][49m[39m [################################.........................................................................................] 8Selecting previously unselected package mysql-server-core-5.7.
+Preparing to unpack .../mysql-server-core-5.7_5.7.25-0ubuntu0.16.04.2_amd64.deb ...
+7[43;0f[42m[30mProgress: [ 28%][49m[39m [###################################......................................................................................] 8Unpacking mysql-server-core-5.7 (5.7.25-0ubuntu0.16.04.2) ...
+7[43;0f[42m[30mProgress: [ 30%][49m[39m [#####################################....................................................................................] 87[43;0f[42m[30mProgress: [ 32%][49m[39m [########################################.................................................................................] 8Selecting previously unselected package libevent-core-2.0-5:amd64.
+Preparing to unpack .../libevent-core-2.0-5_2.0.21-stable-2ubuntu0.16.04.1_amd64.deb ...
+7[43;0f[42m[30mProgress: [ 34%][49m[39m [###########################################..............................................................................] 8Unpacking libevent-core-2.0-5:amd64 (2.0.21-stable-2ubuntu0.16.04.1) ...
+7[43;0f[42m[30mProgress: [ 36%][49m[39m [#############################################............................................................................] 87[43;0f[42m[30mProgress: [ 39%][49m[39m [################################################.........................................................................] 8Processing triggers for libc-bin (2.23-0ubuntu11) ...
+Processing triggers for man-db (2.7.5-1) ...
+Setting up mysql-common (5.7.25-0ubuntu0.16.04.2) ...
+7[43;0f[42m[30mProgress: [ 41%][49m[39m [##################################################.......................................................................] 8update-alternatives: using /etc/mysql/my.cnf.fallback to provide /etc/mysql/my.cnf (my.cnf) in auto mode
+7[43;0f[42m[30mProgress: [ 43%][49m[39m [#####################################################....................................................................] 8Selecting previously unselected package mysql-server-5.7.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 193549 files and directories currently installed.)
+Preparing to unpack .../mysql-server-5.7_5.7.25-0ubuntu0.16.04.2_amd64.deb ...
+7[43;0f[42m[30mProgress: [ 45%][49m[39m [########################################################.................................................................] 8Unpacking mysql-server-5.7 (5.7.25-0ubuntu0.16.04.2) ...
+7[43;0f[42m[30mProgress: [ 47%][49m[39m [##########################################################...............................................................] 87[43;0f[42m[30mProgress: [ 50%][49m[39m [#############################################################............................................................] 8Selecting previously unselected package libhtml-template-perl.
+Preparing to unpack .../libhtml-template-perl_2.95-2_all.deb ...
+7[43;0f[42m[30mProgress: [ 52%][49m[39m [################################################################.........................................................] 8Unpacking libhtml-template-perl (2.95-2) ...
+7[43;0f[42m[30mProgress: [ 54%][49m[39m [##################################################################.......................................................] 87[43;0f[42m[30mProgress: [ 56%][49m[39m [#####################################################################....................................................] 8Selecting previously unselected package mysql-server.
+Preparing to unpack .../mysql-server_5.7.25-0ubuntu0.16.04.2_all.deb ...
+7[43;0f[42m[30mProgress: [ 58%][49m[39m [########################################################################.................................................] 8Unpacking mysql-server (5.7.25-0ubuntu0.16.04.2) ...
+7[43;0f[42m[30mProgress: [ 60%][49m[39m [##########################################################################...............................................] 87[43;0f[42m[30mProgress: [ 63%][49m[39m [#############################################################################............................................] 8Processing triggers for systemd (229-4ubuntu21.21) ...
+Processing triggers for ureadahead (0.100.0-19) ...
+Processing triggers for man-db (2.7.5-1) ...
+Setting up libaio1:amd64 (0.3.110-2) ...
+7[43;0f[42m[30mProgress: [ 65%][49m[39m [###############################################################################..........................................] 87[43;0f[42m[30mProgress: [ 67%][49m[39m [##################################################################################.......................................] 8Setting up mysql-client-core-5.7 (5.7.25-0ubuntu0.16.04.2) ...
+7[43;0f[42m[30mProgress: [ 69%][49m[39m [#####################################################################################....................................] 87[43;0f[42m[30mProgress: [ 71%][49m[39m [#######################################################################################..................................] 8Setting up mysql-client-5.7 (5.7.25-0ubuntu0.16.04.2) ...
+7[43;0f[42m[30mProgress: [ 73%][49m[39m [##########################################################################################...............................] 87[43;0f[42m[30mProgress: [ 76%][49m[39m [#############################################################################################............................] 8Setting up mysql-server-core-5.7 (5.7.25-0ubuntu0.16.04.2) ...
+7[43;0f[42m[30mProgress: [ 78%][49m[39m [###############################################################################################..........................] 87[43;0f[42m[30mProgress: [ 80%][49m[39m [##################################################################################################.......................] 8Setting up libevent-core-2.0-5:amd64 (2.0.21-stable-2ubuntu0.16.04.1) ...
+7[43;0f[42m[30mProgress: [ 82%][49m[39m [####################################################################################################.....................] 87[43;0f[42m[30mProgress: [ 84%][49m[39m [#######################################################################################################..................] 8Setting up mysql-server-5.7 (5.7.25-0ubuntu0.16.04.2) ...
+7[43;0f[42m[30mProgress: [ 86%][49m[39m [##########################################################################################################...............] 8update-alternatives: using /etc/mysql/mysql.cnf to provide /etc/mysql/my.cnf (my.cnf) in auto mode
+Renaming removed key_buffer and myisam-recover options (if present)
+
+7[43;0f[42m[30mProgress: [ 89%][49m[39m [############################################################################################################.............] 8Setting up libhtml-template-perl (2.95-2) ...
+7[43;0f[42m[30mProgress: [ 91%][49m[39m [###############################################################################################################..........] 87[43;0f[42m[30mProgress: [ 93%][49m[39m [##################################################################################################################.......] 8Setting up mysql-server (5.7.25-0ubuntu0.16.04.2) ...
+7[43;0f[42m[30mProgress: [ 95%][49m[39m [####################################################################################################################.....] 87[43;0f[42m[30mProgress: [ 97%][49m[39m [#######################################################################################################################..] 8Processing triggers for libc-bin (2.23-0ubuntu11) ...
+Processing triggers for systemd (229-4ubuntu21.21) ...
+Processing triggers for ureadahead (0.100.0-19) ...
+
+
+7[0;43r8[1A[J
+]0;s4d2@cec-HCL-Desktop: ~[01;32ms4d2@cec-HCL-Desktop[00m:[01;34m~[00m$ 
+]0;s4d2@cec-HCL-Desktop: ~[01;32ms4d2@cec-HCL-Desktop[00m:[01;34m~[00m$ 
+]0;s4d2@cec-HCL-Desktop: ~[01;32ms4d2@cec-HCL-Desktop[00m:[01;34m~[00m$ sudo apt-i[K[K install [K[K[K[K[K[K[K[K[K[K[K[K[K myqsql[K[K[K[Ksql_secure_installatiom[Kn
+
+Securing the MySQL server deployment.
+
+Enter password for user root: 
+Error: Access denied for user 'root'@'localhost' (using password: NO)
+]0;s4d2@cec-HCL-Desktop: ~[01;32ms4d2@cec-HCL-Desktop[00m:[01;34m~[00m$ sudo mysql_secure_installation
+
+Securing the MySQL server deployment.
+
+Enter password for user root: 
+
+VALIDATE PASSWORD PLUGIN can be used to test passwords
+and improve security. It checks the strength of password
+and allows the users to set only those passwords which are
+secure enough. Would you like to setup VALIDATE PASSWORD plugin?
+
+Press y|Y for Yes, any other key for No: y
+
+There are three levels of password validation policy:
+
+LOW    Length >= 8
+MEDIUM Length >= 8, numeric, mixed case, and special characters
+STRONG Length >= 8, numeric, mixed case, special characters and dictionary                  file
+
+Please enter 0 = LOW, 1 = MEDIUM and 2 = STRONG: ^C
+]0;s4d2@cec-HCL-Desktop: ~[01;32ms4d2@cec-HCL-Desktop[00m:[01;34m~[00m$ sudo mysql_secure_installation
+
+Securing the MySQL server deployment.
+
+Enter password for user root: 
+\Error: Access denied for user 'root'@'localhost' (using password: YES)
+]0;s4d2@cec-HCL-Desktop: ~[01;32ms4d2@cec-HCL-Desktop[00m:[01;34m~[00m$ \sudo mysql_secure_installation
+
+Securing the MySQL server deployment.
+
+Enter password for user root: 
+The 'validate_password' plugin is installed on the server.
+The subsequent steps will run with the existing configuration
+of the plugin.
+Using existing password for root.
+
+Estimated strength of the password: 50 
+Change the password for root ? ((Press y|Y for Yes, any other key for No) : n 
+
+ ... skipping.
+By default, a MySQL installation has an anonymous user,
+allowing anyone to log into MySQL without having to have
+a user account created for them. This is intended only for
+testing, and to make the installation go a bit smoother.
+You should remove them before moving into a production
+environment.
+
+Remove anonymous users? (Press y|Y for Yes, any other key for No) : y
+Success.
+
+
+Normally, root should only be allowed to connect from
+'localhost'. This ensures that someone cannot guess at
+the root password from the network.
+
+Disallow root login remotely? (Press y|Y for Yes, any other key for No) : y
+Success.
+
+By default, MySQL comes with a database named 'test' that
+anyone can access. This is also intended only for testing,
+and should be removed before moving into a production
+environment.
+
+
+Remove test database and access to it? (Press y|Y for Yes, any other key for No) : y
+ - Dropping test database...
+Success.
+
+ - Removing privileges on test database...
+Success.
+
+Reloading the privilege tables will ensure that all changes
+made so far will take effect immediately.
+
+Reload privilege tables now? (Press y|Y for Yes, any other key for No) : ^[y
+
+ ... skipping.
+All done! 
+]0;s4d2@cec-HCL-Desktop: ~[01;32ms4d2@cec-HCL-Desktop[00m:[01;34m~[00m$ sudo a[[Kpt-get ints[K[Kstall t[Kphplibapache libapache[C[C[C[C[C[C[C[C[C2-mode-php-[K -[Kphp-mcrypt php-mysql
+Reading package lists... 0%Reading package lists... 100%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree       
+Reading state information... 0%Reading state information... 0%Reading state information... Done
+E: Unable to locate package libapache2-mode-php
+]0;s4d2@cec-HCL-Desktop: ~[01;32ms4d2@cec-HCL-Desktop[00m:[01;34m~[00m$ sudo apt-get install php libapache2-mode-php php-mcrypt php-mysql[C[1@5[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1@5[C[C[C[C[C[C[C[C[C[C[C5-mysql
+Reading package lists... 0%Reading package lists... 100%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree       
+Reading state information... 0%Reading state information... 0%Reading state information... Done
+Package php5 is not available, but is referred to by another package.
+This may mean that the package is missing, has been obsoleted, or
+is only available from another source
+
+Package php5-mcrypt is not available, but is referred to by another package.
+This may mean that the package is missing, has been obsoleted, or
+is only available from another source
+
+Package php5-mysql is not available, but is referred to by another package.
+This may mean that the package is missing, has been obsoleted, or
+is only available from another source
+
+E: Package 'php5' has no installation candidate
+E: Unable to locate package libapache2-mode-php
+E: Package 'php5-mcrypt' has no installation candidate
+E: Package 'php5-mysql' has no installation candidate
+]0;s4d2@cec-HCL-Desktop: ~[01;32ms4d2@cec-HCL-Desktop[00m:[01;34m~[00m$ sudo apt-get install php5 libapache2-mode-php php5-mcrypt php5-mysql[C[1@5
+Reading package lists... 0%Reading package lists... 100%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree       
+Reading state information... 0%Reading state information... 0%Reading state information... Done
+Package php5 is not available, but is referred to by another package.
+This may mean that the package is missing, has been obsoleted, or
+is only available from another source
+
+Package php5-mcrypt is not available, but is referred to by another package.
+This may mean that the package is missing, has been obsoleted, or
+is only available from another source
+
+Package php5-mysql is not available, but is referred to by another package.
+This may mean that the package is missing, has been obsoleted, or
+is only available from another source
+
+E: Package 'php5' has no installation candidate
+E: Unable to locate package libapache2-mode-php5
+E: Package 'php5-mcrypt' has no installation candidate
+E: Package 'php5-mysql' has no installation candidate
+]0;s4d2@cec-HCL-Desktop: ~[01;32ms4d2@cec-HCL-Desktop[00m:[01;34m~[00m$ sudo apt-get install php5 libapache2-mode-php5 php5-mcrypt php5-mysql[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ksudo apt-get install php5 libapache2-mode-php5 php5-mcrypt php5-mysql[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K^V[K^[[Asudo apt-get install php5 libapache2-mode-php5 php5-mcrypt php5-mysql[1P[1P[1P[1P[1P[1P[1P[1P[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1Pmysql[1Pmysql[1Pmysql[1Pmysql[1Pmysql[1Pmysql[1Pmysql[1Pmysql[1Pmysql[1Pmysql[1Pmysql[1Pysql[1Pmysql[1Pmysql[1Pmysql[1Pmysql[1Pmysql[1Pmysql[1Pmysql[1Pmysql[1Pmysql[1Pmysql[1Pmysql[1Pmysql[1Pmysql[1Pmysql[1Pysql[1Pmysql mysql[C[C[C[C[C=[K-server libapache2-mod-auth-mysql php5-mysql php5 libapache2-mod-php5 php5-mcrypt
+Reading package lists... 0%Reading package lists... 100%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree       
+Reading state information... 0%Reading state information... 0%Reading state information... Done
+Package libapache2-mod-php5 is not available, but is referred to by another package.
+This may mean that the package is missing, has been obsoleted, or
+is only available from another source
+
+Package php5 is not available, but is referred to by another package.
+This may mean that the package is missing, has been obsoleted, or
+is only available from another source
+
+Package php5-mcrypt is not available, but is referred to by another package.
+This may mean that the package is missing, has been obsoleted, or
+is only available from another source
+
+Package php5-mysql is not available, but is referred to by another package.
+This may mean that the package is missing, has been obsoleted, or
+is only available from another source
+
+E: Unable to locate package libapache2-mod-auth-mysql
+E: Package 'php5-mysql' has no installation candidate
+E: Package 'php5' has no installation candidate
+E: Package 'libapache2-mod-php5' has no installation candidate
+E: Package 'php5-mcrypt' has no installation candidate
+]0;s4d2@cec-HCL-Desktop: ~[01;32ms4d2@cec-HCL-Desktop[00m:[01;34m~[00m$ sudo apt-get install apache2 mysql-server libapache2-mod-auth-mysql php5-mysql php5 libapache2-mod-php5 php5-mcrypt[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[46Pphp5 libapache2-mode-php5 php5-mcrypt php5-mysql[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Capache2 mysql-server libapache2-mod-auth-mysql php5-mysql php5 libapache2-mod-php5 php5-mcrypt[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ksudo apt-get install apache2 mysql-server libapache2-mod-auth-mysql php5-mysql php5 libapache2-mod-php5 php5-mcrypt[1P-mcrypt[1P php-mcrypt[1P[C[1P[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+Reading package lists... 0%Reading package lists... 100%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree       
+Reading state information... 0%Reading state information... 0%Reading state information... Done
+E: Unable to locate package libapache2-mod-auth-mysql
+]0;s4d2@cec-HCL-Desktop: ~[01;32ms4d2@cec-HCL-Desktop[00m:[01;34m~[00m$ sudo apt-get install apache2 mysql-server libapache2-mod-auth-mysql php-mysql php libapache2-mod-php php-mcrypt[C[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+Reading package lists... 0%Reading package lists... 100%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree       
+Reading state information... 0%Reading state information... 0%Reading state information... Done
+apache2 is already the newest version (2.4.18-2ubuntu3.10).
+mysql-server is already the newest version (5.7.25-0ubuntu0.16.04.2).
+The following additional packages will be installed:
+  libapache2-mod-php7.0 libmcrypt4 php-common php7.0 php7.0-cli php7.0-common php7.0-json php7.0-mcrypt php7.0-mysql php7.0-opcache
+  php7.0-readline
+Suggested packages:
+  php-pear libmcrypt-dev mcrypt
+The following NEW packages will be installed:
+  libapache2-mod-php libapache2-mod-php7.0 libmcrypt4 php php-common php-mcrypt php-mysql php7.0 php7.0-cli php7.0-common php7.0-json
+  php7.0-mcrypt php7.0-mysql php7.0-opcache php7.0-readline
+0 upgraded, 15 newly installed, 0 to remove and 41 not upgraded.
+Need to get 3,681 kB of archives.
+After this operation, 14.7 MB of additional disk space will be used.
+Do you want to continue? [Y/n] y
+0% [Working]            Get:1 http://in.archive.ubuntu.com/ubuntu xenial-updates/main amd64 php-common all 1:35ubuntu6.1 [10.8 kB]
+0% [1 php-common 5,207 B/10.8 kB 48%]                                     2% [Working]            Get:2 http://in.archive.ubuntu.com/ubuntu xenial-updates/main amd64 php7.0-common amd64 7.0.33-0ubuntu0.16.04.4 [843 kB]
+2% [2 php7.0-common 2,557 B/843 kB 0%]4% [2 php7.0-common 95.2 kB/843 kB 11%]17% [2 php7.0-common 731 kB/843 kB 87%]                                       21% [Working]             Get:3 http://in.archive.ubuntu.com/ubuntu xenial-updates/main amd64 php7.0-json amd64 7.0.33-0ubuntu0.16.04.4 [16.9 kB]
+22% [3 php7.0-json 16.9 kB/16.9 kB 100%]                                        23% [Working]             Get:4 http://in.archive.ubuntu.com/ubuntu xenial-updates/main amd64 php7.0-opcache amd64 7.0.33-0ubuntu0.16.04.4 [77.2 kB]
+23% [4 php7.0-opcache 8,192 B/77.2 kB 11%]                                          26% [Working]             Get:5 http://in.archive.ubuntu.com/ubuntu xenial-updates/main amd64 php7.0-readline amd64 7.0.33-0ubuntu0.16.04.4 [12.8 kB]
+26% [5 php7.0-readline 4,457 B/12.8 kB 35%]                                           28% [Working]             Get:6 http://in.archive.ubuntu.com/ubuntu xenial-updates/main amd64 php7.0-cli amd64 7.0.33-0ubuntu0.16.04.4 [1,282 kB]
+28% [6 php7.0-cli 1,108 B/1,282 kB 0%]                                      57% [Working]             Get:7 http://in.archive.ubuntu.com/ubuntu xenial-updates/main amd64 libapache2-mod-php7.0 amd64 7.0.33-0ubuntu0.16.04.4 [1,225 kB]
+57% [7 libapache2-mod-php7.0 1,108 B/1,225 kB 0%]
+                                                 85% [Working]             Get:8 http://in.archive.ubuntu.com/ubuntu xenial-updates/main amd64 libapache2-mod-php all 1:7.0+35ubuntu6.1 [2,990 B]
+86% [Waiting for headers]                         Get:9 http://in.archive.ubuntu.com/ubuntu xenial/universe amd64 libmcrypt4 amd64 2.5.8-3.3 [63.0 kB]
+86% [9 libmcrypt4 1,112 B/63.0 kB 2%]                                     89% [Working]             Get:10 http://in.archive.ubuntu.com/ubuntu xenial-updates/main amd64 php7.0 all 7.0.33-0ubuntu0.16.04.4 [1,286 B]
+89% [10 php7.0 1,286 B/1,286 B 100%]                                    90% [Working]             Get:11 http://in.archive.ubuntu.com/ubuntu xenial-updates/main amd64 php all 1:7.0+35ubuntu6.1 [2,862 B]
+90% [11 php 2,862 B/2,862 B 100%]                                 92% [Working]             Get:12 http://in.archive.ubuntu.com/ubuntu xenial-updates/universe amd64 php7.0-mcrypt amd64 7.0.33-0ubuntu0.16.04.4 [14.5 kB]
+92% [12 php7.0-mcrypt 9,552 B/14.5 kB 66%]                                          93% [Working]             Get:13 http://in.archive.ubuntu.com/ubuntu xenial-updates/universe amd64 php-mcrypt all 1:7.0+35ubuntu6.1 [1,934 B]
+93% [13 php-mcrypt 1,934 B/1,934 B 100%]                                        95% [Working]             Get:14 http://in.archive.ubuntu.com/ubuntu xenial-updates/main amd64 php7.0-mysql amd64 7.0.33-0ubuntu0.16.04.4 [124 kB]
+95% [14 php7.0-mysql 41.0 kB/124 kB 33%]                                        99% [Working]             Get:15 http://in.archive.ubuntu.com/ubuntu xenial-updates/main amd64 php-mysql all 1:7.0+35ubuntu6.1 [1,928 B]
+99% [15 php-mysql 1,928 B/1,928 B 100%]                                       100% [Working]              Fetched 3,681 kB in 2s (1,381 kB/s)
+
+Selecting previously unselected package php-common.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%
+(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%
+(Reading database ... 95%(Reading database ... 100%(Reading database ... 193650 files and directories currently installed.)
+Preparing to unpack .../php-common_1%3a35ubuntu6.1_all.deb ...
+Unpacking php-common (1:35ubuntu6.1) ...
+Selecting previously unselected package php7.0-common.
+Preparing to unpack .../php7.0-common_7.0.33-0ubuntu0.16.04.4_amd64.deb ...
+Unpacking php7.0-common (7.0.33-0ubuntu0.16.04.4) ...
+Selecting previously unselected package php7.0-json.
+Preparing to unpack .../php7.0-json_7.0.33-0ubuntu0.16.04.4_amd64.deb ...
+Unpacking php7.0-json (7.0.33-0ubuntu0.16.04.4) ...
+Selecting previously unselected package php7.0-opcache.
+Preparing to unpack .../php7.0-opcache_7.0.33-0ubuntu0.16.04.4_amd64.deb ...
+Unpacking php7.0-opcache (7.0.33-0ubuntu0.16.04.4) ...
+Selecting previously unselected package php7.0-readline.
+Preparing to unpack .../php7.0-readline_7.0.33-0ubuntu0.16.04.4_amd64.deb ...
+Unpacking php7.0-readline (7.0.33-0ubuntu0.16.04.4) ...
+Selecting previously unselected package php7.0-cli.
+Preparing to unpack .../php7.0-cli_7.0.33-0ubuntu0.16.04.4_amd64.deb ...
+Unpacking php7.0-cli (7.0.33-0ubuntu0.16.04.4) ...
+Selecting previously unselected package libapache2-mod-php7.0.
+Preparing to unpack .../libapache2-mod-php7.0_7.0.33-0ubuntu0.16.04.4_amd64.deb ...
+Unpacking libapache2-mod-php7.0 (7.0.33-0ubuntu0.16.04.4) ...
+Selecting previously unselected package libapache2-mod-php.
+Preparing to unpack .../libapache2-mod-php_1%3a7.0+35ubuntu6.1_all.deb ...
+Unpacking libapache2-mod-php (1:7.0+35ubuntu6.1) ...
+Selecting previously unselected package libmcrypt4.
+Preparing to unpack .../libmcrypt4_2.5.8-3.3_amd64.deb ...
+Unpacking libmcrypt4 (2.5.8-3.3) ...
+Selecting previously unselected package php7.0.
+Preparing to unpack .../php7.0_7.0.33-0ubuntu0.16.04.4_all.deb ...
+Unpacking php7.0 (7.0.33-0ubuntu0.16.04.4) ...
+Selecting previously unselected package php.
+Preparing to unpack .../php_1%3a7.0+35ubuntu6.1_all.deb ...
+Unpacking php (1:7.0+35ubuntu6.1) ...
+Selecting previously unselected package php7.0-mcrypt.
+Preparing to unpack .../php7.0-mcrypt_7.0.33-0ubuntu0.16.04.4_amd64.deb ...
+Unpacking php7.0-mcrypt (7.0.33-0ubuntu0.16.04.4) ...
+Selecting previously unselected package php-mcrypt.
+Preparing to unpack .../php-mcrypt_1%3a7.0+35ubuntu6.1_all.deb ...
+Unpacking php-mcrypt (1:7.0+35ubuntu6.1) ...
+Selecting previously unselected package php7.0-mysql.
+Preparing to unpack .../php7.0-mysql_7.0.33-0ubuntu0.16.04.4_amd64.deb ...
+Unpacking php7.0-mysql (7.0.33-0ubuntu0.16.04.4) ...
+Selecting previously unselected package php-mysql.
+Preparing to unpack .../php-mysql_1%3a7.0+35ubuntu6.1_all.deb ...
+Unpacking php-mysql (1:7.0+35ubuntu6.1) ...
+Processing triggers for man-db (2.7.5-1) ...
+Setting up php-common (1:35ubuntu6.1) ...
+Setting up php7.0-common (7.0.33-0ubuntu0.16.04.4) ...
+
+Creating config file /etc/php/7.0/mods-available/calendar.ini with new version
+
+Creating config file /etc/php/7.0/mods-available/ctype.ini with new version
+
+Creating config file /etc/php/7.0/mods-available/exif.ini with new version
+
+Creating config file /etc/php/7.0/mods-available/fileinfo.ini with new version
+
+Creating config file /etc/php/7.0/mods-available/ftp.ini with new version
+
+Creating config file /etc/php/7.0/mods-available/gettext.ini with new version
+
+Creating config file /etc/php/7.0/mods-available/iconv.ini with new version
+
+Creating config file /etc/php/7.0/mods-available/pdo.ini with new version
+
+Creating config file /etc/php/7.0/mods-available/phar.ini with new version
+
+Creating config file /etc/php/7.0/mods-available/posix.ini with new version
+
+Creating config file /etc/php/7.0/mods-available/shmop.ini with new version
+
+Creating config file /etc/php/7.0/mods-available/sockets.ini with new version
+
+Creating config file /etc/php/7.0/mods-available/sysvmsg.ini with new version
+
+Creating config file /etc/php/7.0/mods-available/sysvsem.ini with new version
+
+Creating config file /etc/php/7.0/mods-available/sysvshm.ini with new version
+
+Creating config file /etc/php/7.0/mods-available/tokenizer.ini with new version
+Setting up php7.0-json (7.0.33-0ubuntu0.16.04.4) ...
+
+Creating config file /etc/php/7.0/mods-available/json.ini with new version
+Setting up php7.0-opcache (7.0.33-0ubuntu0.16.04.4) ...
+
+Creating config file /etc/php/7.0/mods-available/opcache.ini with new version
+Setting up php7.0-readline (7.0.33-0ubuntu0.16.04.4) ...
+
+Creating config file /etc/php/7.0/mods-available/readline.ini with new version
+Setting up php7.0-cli (7.0.33-0ubuntu0.16.04.4) ...
+update-alternatives: using /usr/bin/php7.0 to provide /usr/bin/php (php) in auto mode
+update-alternatives: using /usr/bin/phar7.0 to provide /usr/bin/phar (phar) in auto mode
+update-alternatives: using /usr/bin/phar.phar7.0 to provide /usr/bin/phar.phar (phar.phar) in auto mode
+
+Creating config file /etc/php/7.0/cli/php.ini with new version
+Setting up libapache2-mod-php7.0 (7.0.33-0ubuntu0.16.04.4) ...
+
+Creating config file /etc/php/7.0/apache2/php.ini with new version
+Module mpm_event disabled.
+Enabling module mpm_prefork.
+apache2_switch_mpm Switch to prefork
+apache2_invoke: Enable module php7.0
+Setting up libapache2-mod-php (1:7.0+35ubuntu6.1) ...
+Setting up libmcrypt4 (2.5.8-3.3) ...
+Setting up php7.0 (7.0.33-0ubuntu0.16.04.4) ...
+Setting up php (1:7.0+35ubuntu6.1) ...
+Setting up php7.0-mcrypt (7.0.33-0ubuntu0.16.04.4) ...
+
+Creating config file /etc/php/7.0/mods-available/mcrypt.ini with new version
+Setting up php-mcrypt (1:7.0+35ubuntu6.1) ...
+Setting up php7.0-mysql (7.0.33-0ubuntu0.16.04.4) ...
+
+Creating config file /etc/php/7.0/mods-available/mysqlnd.ini with new version
+
+Creating config file /etc/php/7.0/mods-available/mysqli.ini with new version
+
+Creating config file /etc/php/7.0/mods-available/pdo_mysql.ini with new version
+Setting up php-mysql (1:7.0+35ubuntu6.1) ...
+Processing triggers for libc-bin (2.23-0ubuntu11) ...
+Processing triggers for libapache2-mod-php7.0 (7.0.33-0ubuntu0.16.04.4) ...
+]0;s4d2@cec-HCL-Desktop: ~[01;32ms4d2@cec-HCL-Desktop[00m:[01;34m~[00m$ sudo gedit /etc/apache2/mods-enabled/dir.conf 
+
+(gedit:1321): Gtk-WARNING **: Calling Inhibit failed: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.SessionManager was not provided by any .service files
+
+** (gedit:1321): WARNING **: Set document metadata failed: Setting attribute metadata::gedit-spell-enabled not supported
+
+** (gedit:1321): WARNING **: Set document metadata failed: Setting attribute metadata::gedit-encoding not supported
+
+** (gedit:1321): WARNING **: Set document metadata failed: Setting attribute metadata::gedit-position not supported
+]0;s4d2@cec-HCL-Desktop: ~[01;32ms4d2@cec-HCL-Desktop[00m:[01;34m~[00m$ sudo gedit /var/www/html/infoi[K[K[K[Kndex.php
+
+(gedit:1365): Gtk-WARNING **: Calling Inhibit failed: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.SessionManager was not provided by any .service files
+
+** (gedit:1365): WARNING **: Set document metadata failed: Setting attribute metadata::gedit-spell-enabled not supported
+
+** (gedit:1365): WARNING **: Set document metadata failed: Setting attribute metadata::gedit-encoding not supported
+
+** (gedit:1365): WARNING **: Set document metadata failed: Setting attribute metadata::gedit-position not supported
+]0;s4d2@cec-HCL-Desktop: ~[01;32ms4d2@cec-HCL-Desktop[00m:[01;34m~[00m$ sudo nginx -s stop
+]0;s4d2@cec-HCL-Desktop: ~[01;32ms4d2@cec-HCL-Desktop[00m:[01;34m~[00m$ sudo apache2ctl restart
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 127.0.1.1. Set the 'ServerName' directive globally to suppress this message
+httpd not running, trying to start
+]0;s4d2@cec-HCL-Desktop: ~[01;32ms4d2@cec-HCL-Desktop[00m:[01;34m~[00m$ c d [K[K[Kd
+]0;s4d2@cec-HCL-Desktop: ~[01;32ms4d2@cec-HCL-Desktop[00m:[01;34m~[00m$ ls
+a.txt  [0m[01;34mDesktop[0m  [01;34mDocuments[0m  [01;34mDownloads[0m  examples.desktop  ftp.txt  http.txt  lamp.txt  [01;34mMusic[0m  new.txt  [01;34mPictures[0m  [01;34mPublic[0m  [01;34ms4d2[0m  [01;34mTemplates[0m  [01;34mVideos[0m
+]0;s4d2@cec-HCL-Desktop: ~[01;32ms4d2@cec-HCL-Desktop[00m:[01;34m~[00m$ exit
+exit
+
+Script done on Thursday 25 April 2019 11:59:22 AM IST
