@@ -1,0 +1,160 @@
+Script started on Thursday 25 April 2019 09:35:03 AM IST
+To run a command as administrator (user "root"), use "sudo <command>".
+See "man sudo_root" for details.
+
+]0;s4d2@cec-HCL-Desktop: ~[01;32ms4d2@cec-HCL-Desktop[00m:[01;34m~[00m$ sudo apt-get install ngix
+[sudo] password for s4d2: 
+Reading package lists... 0%Reading package lists... 100%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree       
+Reading state information... 0%Reading state information... 0%Reading state information... Done
+E: Unable to locate package ngix
+]0;s4d2@cec-HCL-Desktop: ~[01;32ms4d2@cec-HCL-Desktop[00m:[01;34m~[00m$ sr[Kervice nginx [K[K[K[K[K[K[K[K[K[K[K[K[K[Ksudo apt-get install ngix[K
+nginx             nginx-core-dbg    nginx-extras-dbg  nginx-light
+nginx-common      nginx-doc         nginx-full        nginx-light-dbg
+nginx-core        nginx-extras      nginx-full-dbg    ngircd
+]0;s4d2@cec-HCL-Desktop: ~[01;32ms4d2@cec-HCL-Desktop[00m:[01;34m~[00m$ sudo apt-get install nginx
+Reading package lists... 0%Reading package lists... 100%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree       
+Reading state information... 0%Reading state information... 0%Reading state information... Done
+nginx is already the newest version (1.10.3-0ubuntu0.16.04.3).
+0 upgraded, 0 newly installed, 0 to remove and 41 not upgraded.
+]0;s4d2@cec-HCL-Desktop: ~[01;32ms4d2@cec-HCL-Desktop[00m:[01;34m~[00m$ serc[Kvicve[K[K[K[Kice nginx status 
+[?1h=[0;1;32m●[0m nginx.service - A high performance web server and a reverse proxy server[m
+   Loaded: loaded (/lib/systemd/system/nginx.service; enabled; vendor preset: en[m
+   Active: [0;1;32mactive (running)[0m since Thu 2019-04-25 09:08:34 IST; 28min ago[m
+  Process: 983 ExecStart=/usr/sbin/nginx -g daemon on; master_process on; (code=[m
+  Process: 961 ExecStartPre=/usr/sbin/nginx -t -q -g daemon on; master_process o[m
+ Main PID: 985 (nginx)[m
+   CGroup: /system.slice/nginx.service[m
+           ├─985 nginx: master process /usr/sbin/nginx -g daemon on; master_proc[m
+           ├─986 nginx: worker process                           [m
+           ├─987 nginx: worker process                           [m
+           ├─988 nginx: worker process                           [m
+           └─989 nginx: worker process                           [m
+[m
+Apr 25 09:08:32 cec-HCL-Desktop systemd[1]: Starting A high performance web serv[m
+Apr 25 09:08:34 cec-HCL-Desktop systemd[1]: Started A high performance web serve[m
+[7mlines 1-15/15 (END)[27m[K...skipping...
+[0;1;32m●[0m nginx.service - A high performance web server and a reverse proxy server[m
+   Loaded: loaded (/lib/systemd/system/nginx.service; enabled; vendor preset: en[m
+   Active: [0;1;32mactive (running)[0m since Thu 2019-04-25 09:08:34 IST; 28min ago[m
+  Process: 983 ExecStart=/usr/sbin/nginx -g daemon on; master_process on; (code=[m
+  Process: 961 ExecStartPre=/usr/sbin/nginx -t -q -g daemon on; master_process o[m
+ Main PID: 985 (nginx)[m
+   CGroup: /system.slice/nginx.service[m
+           ├─985 nginx: master process /usr/sbin/nginx -g daemon on; master_proc[m
+           ├─986 nginx: worker process                           [m
+           ├─987 nginx: worker process                           [m
+           ├─988 nginx: worker process                           [m
+           └─989 nginx: worker process                           [m
+[m
+Apr 25 09:08:32 cec-HCL-Desktop systemd[1]: Starting A high performance web serv[m
+Apr 25 09:08:34 cec-HCL-Desktop systemd[1]: Started A high performance web serve[m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[7mlines 1-15/15 (END)[27m[K...skipping...
+[0;1;32m●[0m nginx.service - A high performance web server and a reverse proxy server[m
+   Loaded: loaded (/lib/systemd/system/nginx.service; enabled; vendor preset: enabled)[m
+   Active: [0;1;32mactive (running)[0m since Thu 2019-04-25 09:08:34 IST; 28min ago[m
+  Process: 983 ExecStart=/usr/sbin/nginx -g daemon on; master_process on; (code=exited, status=0/SUCCESS)[m
+  Process: 961 ExecStartPre=/usr/sbin/nginx -t -q -g daemon on; master_process on; (code=exited, status=0/SUCCESS)[m
+ Main PID: 985 (nginx)[m
+   CGroup: /system.slice/nginx.service[m
+           ├─985 nginx: master process /usr/sbin/nginx -g daemon on; master_process on[m
+           ├─986 nginx: worker process                           [m
+           ├─987 nginx: worker process                           [m
+           ├─988 nginx: worker process                           [m
+           └─989 nginx: worker process                           [m
+[m
+Apr 25 09:08:32 cec-HCL-Desktop systemd[1]: Starting A high performance web server and a reverse proxy server...[m
+Apr 25 09:08:34 cec-HCL-Desktop systemd[1]: Started A high performance web server and a reverse proxy server.[m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[7mlines 1-15/15 (END)[27m[K[K[K[7mlines 1-15/15 (END)[27m[K[K-[Klog file: [Kuu[K[K[7mlines 1-15/15 (END)[27m[K[K-[Klog file: [Kuu[Kss[K[K[Kss[Kuu[Kdd[Koo[K  [Kgg[Kee[Kdd[Kii[Ktt[K//[Kee[Ktt[Kcc[K//[Knn[Kgg[Kii[Kxx[K//[Kss[Kii[Ktt[Kss[Kee[K[K[Kee[Kss[K//[K[K--[Kee[Knn[Kaa[Kbb[Kll[Kee[Kdd[K//[Kdd[Kee[Kff[Kaa[Kuu[Kll[Ktt[K[K[7mCannot write to "sudo gedit/etc/ngix/sites-enabled/default"  (press RETURN)[27m[43;1H[K[K[7mlines 1-15/15 (END)[27m[K[K [KESCESC[KOO[KAA[K[K[7mlines 1-15/15 (END)[27m[K[K-[Klog file: [Kuu[Kdd[Koo[K  [Kgg[Kee[Kdd[Kii[Ktt[K//[Kee[Ktt[Kcc[K//[Knn[Kgg[Kii[Kxx[K//[Kss[Kii[Ktt[Kee[Kss[K--[Kee[Knn[Kaa[Kbb[Kll[Kee[Kdd[K//[Kdd[Kee[Kff[Kaa[Kuu[Kll[Ktt[K[K[7mCannot write to "udo gedit/etc/ngix/sites-enabled/default"  (press RETURN)[27m[43;1H[K[K[7mlines 1-15/15 (END)[27m[K[K-[Klog file: [Kss[K[K[7mlines 1-15/15 (END)[27m[K[K[K[7mlines 1-15/15 (END)[27m[K[K[K[7mlines 1-15/15 (END)[27m[K[K[K[7mlines 1-15/15 (END)[27m[K[K[K[7mlines 1-15/15 (END)[27m[K[K[K[7mlines 1-15/15 (END)[27m[K[K[K[7mlines 1-15/15 (END)[27m[K[K[K[7mlines 1-15/15 (END)[27m[K
+[1]+  Stopped                 service nginx status
+]0;s4d2@cec-HCL-Desktop: ~[01;32ms4d2@cec-HCL-Desktop[00m:[01;34m~[00m$ [K[?1l>^C^C^@
+]0;s4d2@cec-HCL-Desktop: ~[01;32ms4d2@cec-HCL-Desktop[00m:[01;34m~[00m$ su7[Kdo gedit /etc/nginx/sites-t[Kenabled/ind[K[K[K[K[K[K[K[K[Kabled/default 
+^C
+]0;s4d2@cec-HCL-Desktop: ~[01;32ms4d2@cec-HCL-Desktop[00m:[01;34m~[00m$ sudo gedit /etc/nginx/sites-enabled/default [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[23Pervice nginx status[C[23@udo gedit /etc/nginx/sites-enabled/default[C
+^C
+]0;s4d2@cec-HCL-Desktop: ~[01;32ms4d2@cec-HCL-Desktop[00m:[01;34m~[00m$ sudo ge
+gedit        gencat       geqn         geteltorito  getkeycodes  getpcaps     gettext.sh   
+gemtopbm     genisoimage  getcap       getent       getopt       gettext      getty        
+gemtopnm     genl         getconf      getfacl      getopts      gettextize   getweb       
+]0;s4d2@cec-HCL-Desktop: ~[01;32ms4d2@cec-HCL-Desktop[00m:[01;34m~[00m$ sudo gedit /var/[K[K[K[Kvar/www/html/
+^C
+]0;s4d2@cec-HCL-Desktop: ~[01;32ms4d2@cec-HCL-Desktop[00m:[01;34m~[00m$ sudo gedit /var/www/html/index.html
+
+** (gedit:19774): WARNING **: Set document metadata failed: Setting attribute metadata::gedit-position not supported
+]0;s4d2@cec-HCL-Desktop: ~[01;32ms4d2@cec-HCL-Desktop[00m:[01;34m~[00m$ sudo gedit /var/www/html/index.html
+
+(gedit:19791): Gtk-WARNING **: Calling Inhibit failed: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.SessionManager was not provided by any .service files
+
+** (gedit:19791): WARNING **: Set document metadata failed: Setting attribute metadata::gedit-spell-enabled not supported
+
+** (gedit:19791): WARNING **: Set document metadata failed: Setting attribute metadata::gedit-encoding not supported
+^C
+]0;s4d2@cec-HCL-Desktop: ~[01;32ms4d2@cec-HCL-Desktop[00m:[01;34m~[00m$ ifconfig 
+enp4s0    Link encap:Ethernet  HWaddr 10:78:d2:50:d0:2e  
+          inet addr:192.168.0.82  Bcast:192.168.0.255  Mask:255.255.255.0
+          inet6 addr: fe80::9f7:3966:4022:1207/64 Scope:Link
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:76865 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:31876 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:82281615 (82.2 MB)  TX bytes:2648576 (2.6 MB)
+
+lo        Link encap:Local Loopback  
+          inet addr:127.0.0.1  Mask:255.0.0.0
+          inet6 addr: ::1/128 Scope:Host
+          UP LOOPBACK RUNNING  MTU:65536  Metric:1
+          RX packets:17611 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:17611 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1 
+          RX bytes:1177796 (1.1 MB)  TX bytes:1177796 (1.1 MB)
+
+]0;s4d2@cec-HCL-Desktop: ~[01;32ms4d2@cec-HCL-Desktop[00m:[01;34m~[00m$ exit
+exit
+There are stopped jobs.
+]0;s4d2@cec-HCL-Desktop: ~[01;32ms4d2@cec-HCL-Desktop[00m:[01;34m~[00m$ exitifconfig sudo gedit /var/www/html/index.html
+[sudo] password for s4d2: 
+^C
+]0;s4d2@cec-HCL-Desktop: ~[01;32ms4d2@cec-HCL-Desktop[00m:[01;34m~[00m$ exit
+exit
+There are stopped jobs.
+]0;s4d2@cec-HCL-Desktop: ~[01;32ms4d2@cec-HCL-Desktop[00m:[01;34m~[00m$ exit
+exit
+
+Script done on Thursday 25 April 2019 10:17:54 AM IST
