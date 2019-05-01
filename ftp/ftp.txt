@@ -1,0 +1,68 @@
+Script started on Thursday 25 April 2019 10:24:15 AM IST
+]0;s4d2@cec-HCL-Desktop: ~[01;32ms4d2@cec-HCL-Desktop[00m:[01;34m~[00m$ sudo apt-
+apt-add-repository    apt-cdrom             apt-extracttemplates  apt-get               apt-mark              
+apt-cache             apt-config            apt-ftparchive        apt-key               apt-sortpkgs          
+]0;s4d2@cec-HCL-Desktop: ~[01;32ms4d2@cec-HCL-Desktop[00m:[01;34m~[00m$ sudo apt-get install s[Kvsftpd
+[sudo] password for s4d2: 
+Reading package lists... 0%Reading package lists... 100%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree       
+Reading state information... 0%Reading state information... 0%Reading state information... Done
+vsftpd is already the newest version (3.0.3-3ubuntu2).
+0 upgraded, 0 newly installed, 0 to remove and 41 not upgraded.
+]0;s4d2@cec-HCL-Desktop: ~[01;32ms4d2@cec-HCL-Desktop[00m:[01;34m~[00m$ ^C
+]0;s4d2@cec-HCL-Desktop: ~[01;32ms4d2@cec-HCL-Desktop[00m:[01;34m~[00m$ sudo gedit /etc//[Kvsftpd.conf 
+
+** (gedit:20212): WARNING **: Set document metadata failed: Setting attribute metadata::gedit-spell-enabled not supported
+
+** (gedit:20212): WARNING **: Set document metadata failed: Setting attribute metadata::gedit-encoding not supported
+^C
+]0;s4d2@cec-HCL-Desktop: ~[01;32ms4d2@cec-HCL-Desktop[00m:[01;34m~[00m$ sudo vsftpd
+500 OOPS: could not bind listening IPv6 socket
+]0;s4d2@cec-HCL-Desktop: ~[01;32ms4d2@cec-HCL-Desktop[00m:[01;34m~[00m$ sudo vsftpdgedit /etc/vsftpd.conf 
+					
+** (gedit:20295): WARNING **: Set document metadata failed: Setting attribute metadata::gedit-spell-enabled not supported
+
+** (gedit:20295): WARNING **: Set document metadata failed: Setting attribute metadata::gedit-encoding not supported
+
+** (gedit:20295): WARNING **: Set document metadata failed: Setting attribute metadata::gedit-spell-enabled not supported
+
+** (gedit:20295): WARNING **: Set document metadata failed: Setting attribute metadata::gedit-encoding not supported
+
+** (gedit:20295): WARNING **: Set document metadata failed: Setting attribute metadata::gedit-position not supported
+]0;s4d2@cec-HCL-Desktop: ~[01;32ms4d2@cec-HCL-Desktop[00m:[01;34m~[00m$ ftp localhost c[K
+Connected to localhost.
+220 Welcome to my  FTP service.
+Name (localhost:s4d2): s4d2
+331 Please specify the password.
+Password:
+230 Login successful.
+Remote system type is UNIX.
+Using binary mode to transfer files.
+ftp> ls
+200 PORT command successful. Consider using PASV.
+150 Here comes the directory listing.
+drwxr-xr-x    2 1023     1023         4096 Apr 25 09:14 Desktop
+drwxr-xr-x    2 1023     1023         4096 Apr 25 09:14 Documents
+drwxr-xr-x    2 1023     1023         4096 Apr 25 09:14 Downloads
+drwxr-xr-x    2 1023     1023         4096 Apr 25 09:14 Music
+drwxr-xr-x    2 1023     1023         4096 Apr 25 10:16 Pictures
+drwxr-xr-x    2 1023     1023         4096 Apr 25 09:14 Public
+drwxr-xr-x    2 1023     1023         4096 Apr 25 09:14 Templates
+drwxr-xr-x    2 1023     1023         4096 Apr 25 09:14 Videos
+-rw-rw-r--    1 1023     1023            0 Apr 25 09:16 a.txt
+-rw-r--r--    1 1023     1023         8980 Apr 25 09:12 examples.desktop
+-rw-rw-r--    1 1023     1023            0 Apr 25 10:24 ftp.txt
+-rw-rw-r--    1 1023     1023        10522 Apr 25 10:17 http.txt
+-rw-rw-r--    1 1023     1023            1 Apr 25 09:16 new.txt
+drwxrwxr-x    2 1023     1023         4096 Apr 25 09:16 s4d2
+226 Directory send OK.
+ftp> lls
+?Invalid command
+ftp> ls
+421 Timeout.
+ftp> cat [K[K[K[K^C
+ftp> exit
+]0;s4d2@cec-HCL-Desktop: ~[01;32ms4d2@cec-HCL-Desktop[00m:[01;34m~[00m$ exit
+exit
+
+Script done on Thursday 25 April 2019 10:52:20 AM IST
