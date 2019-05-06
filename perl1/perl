@@ -1,0 +1,69 @@
+Script started on 2019-05-06 11:18:44+0530
+]0;s4d2@tpc-Veriton-Series: ~/Desktop/thwalib[01;32ms4d2@tpc-Veriton-Series[00m:[01;34m~/Desktop/thwalib[00m$ sudo apt [K[K[K[K[K[K[K[K[Kt[Ksu -  [K]0;s4d2@tpc-Veriton-Series: ~/Desktop/thwalib[01;32ms4d2@tpc-Veriton-Series[00m:[01;34m~/Desktop/thwalib[00m$ su -  [K]0;s4d2@tpc-Veriton-Series: ~/Desktop/thwalib[01;32ms4d2@tpc-Veriton-Series[00m:[01;34m~/Desktop/thwalib[00m$ su -  [K[K tpc
+Password: 
+]0;tpc@tpc-Veriton-Series: ~[01;32mtpc@tpc-Veriton-Series[00m:[01;34m~[00m$ sudo apt install pelr[K[Krl
+[sudo] password for tpc: 
+Reading package lists... 0%Reading package lists... 100%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree       
+Reading state information... 0%Reading state information... 0%Reading state information... Done
+perl is already the newest version (5.26.1-6ubuntu0.3).
+The following packages were automatically installed and are no longer required:
+  galera-3 libconfig-inifiles-perl libdbd-mysql-perl libdbi-perl libjemalloc1
+  libmysqlclient20 libreadline5 libterm-readkey-perl mariadb-common socat
+Use 'sudo apt autoremove' to remove them.
+0 upgraded, 0 newly installed, 0 to remove and 106 not upgraded.
+]0;tpc@tpc-Veriton-Series: ~[01;32mtpc@tpc-Veriton-Series[00m:[01;34m~[00m$ perl -v
+
+This is perl 5, version 26, subversion 1 (v5.26.1) built for x86_64-linux-gnu-thread-multi
+(with 67 registered patches, see perl -V for more detail)
+
+Copyright 1987-2017, Larry Wall
+
+Perl may be copied only under the terms of either the Artistic License or the
+GNU General Public License, which may be found in the Perl 5 source kit.
+
+Complete documentation for Perl, including FAQ lists, should be found on
+this system using "man perl" or "perldoc perl".  If you have access to the
+Internet, point your browser at http://www.perl.org/, the Perl Home Page.
+
+]0;tpc@tpc-Veriton-Series: ~[01;32mtpc@tpc-Veriton-Series[00m:[01;34m~[00m$ cat p[K[K[K[K[Kls
+[0m[01;34m20[0m                       [01;34mMusic[0m         [01;34msus[0m
+ceccs17d15.29.04.19      output1.txt   TASK-07-ceccs17d15.10.04.19
+ceccs17d15.29.04.19.txt  package1.txt  TASK-07-ceccsd1715.10.04.19
+[01;34mDesktop[0m                  package.txt   TASK-07-ceccsd1715.11.04.19
+[01;34mDocuments[0m                pckgmng       TASK-08-ceccs17d15.11.04.19
+[01;34mDownloads[0m                [01;34mPictures[0m      TASK-08-ceccs17d15.11.04.19.txt
+[01;32mhello[0m                    [01;32mpr[0m            TASK-08-ceccsd1715.11.04.19
+hello.c                  pr.c          TASK-08-ceccsd1715.11.04.19.txt
+hello.pl                 [01;32mprgm1[0m         [01;34mTemplates[0m
+[01;35mimages.jpg[0m               prgm1.c       typescript
+kernel                   prime.py      [01;34muser[0m
+[01;34mkh[0m                       [01;34mPublic[0m        [01;34mVideos[0m
+lamp.sh                  sum.pl
+lan.txt                  sum.py
+]0;tpc@tpc-Veriton-Series: ~[01;32mtpc@tpc-Veriton-Series[00m:[01;34m~[00m$ exit
+logout
+]0;s4d2@tpc-Veriton-Series: ~/Desktop/thwalib[01;32ms4d2@tpc-Veriton-Series[00m:[01;34m~/Desktop/thwalib[00m$ ls
+[0m[01;34mpackage[0m  perl  perl.pl
+]0;s4d2@tpc-Veriton-Series: ~/Desktop/thwalib[01;32ms4d2@tpc-Veriton-Series[00m:[01;34m~/Desktop/thwalib[00m$ p[Kat [K[K[Kcat perl.pl \
+> 
+#!/usr/bin/perl
+
+use strict;
+
+use warnings;
+
+print "Enter two numbers \n ";
+$a = <>;
+$b = <>;
+ my $sum = $a+$b;
+print "Sum = $sum\n";
+]0;s4d2@tpc-Veriton-Series: ~/Desktop/thwalib[01;32ms4d2@tpc-Veriton-Series[00m:[01;34m~/Desktop/thwalib[00m$ perl perl.pl 
+Enter two numbers 
+ 3
+5
+Sum = 8
+]0;s4d2@tpc-Veriton-Series: ~/Desktop/thwalib[01;32ms4d2@tpc-Veriton-Series[00m:[01;34m~/Desktop/thwalib[00m$ exit
+exit
+
+Script done on 2019-05-06 11:26:27+0530
