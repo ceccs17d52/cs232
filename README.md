@@ -8,7 +8,7 @@
  - [x] O.S Installation (Fedora)
  - [x] Http and ftp servers 
  
- ##### Further tasks.
+ ### Further tasks.
  
    - [x] Package Management
    - [x] Perl
